@@ -1,0 +1,5 @@
+version: '3'
+services:
+    client:
+        image: jaromirpufler/docker-openssh-client:latest
+        build: .
